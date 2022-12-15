@@ -27,23 +27,32 @@
     
 }
 #cabeceralogo h1 {
-    font: bold 54px Arial, sans-serif;
+    font: bold 54px Courier;
     color: #FFFFFF;
     position: relative;
-    top: 30px;
+    top: 20px;
+    right: 80px;
+}
+
+#cabeceralogo h2 {
+    font: bold 25px;
+    font-family: 'Courier New', Courier, monospace ;
+    color: #0081fa;
+    position: relative;
+    top: 20px;
     right: 80px;
 }
 #menuprincipal {
     width: 96%;
     height: 50px;
     padding: 0% 2%;
-    background-color: hsl(198, 43%, 74%);
+    background-color: hsl(229, 84%, 58%);
     border-top: 1px solid #094660;
     border-bottom: 1px solid #094660;
 }
 #menuprincipal > div {
-    width: 960px;
-    margin: 0px auto;
+    width: 2000px;
+    margin: 1px auto;
 }
 #menuprincipal li {
     display: inline-block;
@@ -52,7 +61,7 @@
     margin-right: 5px;
 }
 #menuprincipal li:hover {
- background-color: #6FACC6;
+ background-color: #566e8a;
 }
 #menuprincipal a {
     font: bold 18px Arial, sans-serif;
@@ -88,11 +97,11 @@
 }
 #listamenu a {
     font: bold 18px Arial, sans-serif;
-    color: #333333;
+    color: #ffffff;
     text-decoration: none;
 }
 #menuprincipal li:hover {
-    background-color: #6FACC6;
+    background-color: #0658d1;
 }
 
 main {
@@ -123,6 +132,12 @@ main > div {
     color: #333333;
     margin-bottom: 15px;
 }
+.partido {
+    position: relative;
+    width: 300px;
+    color: red;
+}
+
 .recuperar {
     clear: both;
 }
@@ -168,7 +183,7 @@ figure img {
 #pielogo {
     width: 96%;
     padding: 8%;
-    background-color: #0F76A0;
+    background-color: rgb(14, 14, 44);
 }
 #pielogo > div {
     width: 960px;
