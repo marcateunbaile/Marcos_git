@@ -5,7 +5,7 @@
 #cabeceralogo {
     justify-content: center;	
     width: 100%;
-    height: 150px;
+    height: 160px;
     padding: 0% 2%;
     background-color: #0F76A0;
     background-image: url('fondoazul2.jpg');
@@ -13,18 +13,31 @@
 #cabeceralogo > div {
     width: 960px;
     margin: 0px auto;
-    padding-top: 45px;
+    padding-top: 20px;
+    
+}
+#cabeceralogo img {
+    float: left;
+    width: 20%;
+    height: 160px;
+    position: relative;
+    bottom: 20px;
+    right: 100px;
+    
     
 }
 #cabeceralogo h1 {
     font: bold 54px Arial, sans-serif;
     color: #FFFFFF;
+    position: relative;
+    top: 30px;
+    right: 80px;
 }
 #menuprincipal {
     width: 96%;
     height: 50px;
     padding: 0% 2%;
-    background-color: #9FC8D9;
+    background-color: hsl(198, 43%, 74%);
     border-top: 1px solid #094660;
     border-bottom: 1px solid #094660;
 }
@@ -85,7 +98,7 @@
 main {
     width: 96%;
     padding: 2%;
-    background-image: url(fondoazul.jpg);
+    background-image: url('fondoazul1.jpg');
 }
 main > div {
     width: 960px;
