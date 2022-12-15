@@ -8,7 +8,7 @@
     height: 150px;
     padding: 0% 2%;
     background-color: #0F76A0;
-    background-image: url('');
+    background-image: url('fondoazul2.jpg');
 }
 #cabeceralogo > div {
     width: 960px;
@@ -85,7 +85,7 @@
 main {
     width: 96%;
     padding: 2%;
-    background-image: url("../imaxes/fondoazul.jpg");
+    background-image: url(fondoazul.jpg);
 }
 main > div {
     width: 960px;
