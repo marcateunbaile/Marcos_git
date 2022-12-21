@@ -118,7 +118,7 @@ main > div {
     width: 620px;
     padding-top: 30px;
     background-color: #FFFFFF;
-    border-radius: 10px;
+    border-radius: 100px;
 }
 #infoadicional {
     float: right;
@@ -177,8 +177,9 @@ figure {
     margin: 10px 0px;
 }
 figure img {
-    padding: 5px;
-    border: 1px solid;
+    padding: 2px;
+    border: 100px solid;
+    border-color: #0f4380;
 }
 #pielogo {
     width: 96%;
